@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Watch Enquiry | Grand Dial Vijay Nagar Indore</title>
+  <meta name="description" content="Submit a watch enquiry at Grand Dial in Vijay Nagar, Indore. Enquire for men's, women's, analog, digital and gift watches with personalized guidance.">
+  <link rel="canonical" href="contact.html">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google Analytics 4 (GA4) Tracking Setup Placeholder -->
+  <!-- 
+  To activate live tracking on deployment:
+  1. Replace G-XXXXXXXXXX with your actual GA4 Measurement ID
+  2. Uncomment the script tag below
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+</head>
+<body>
+
+  <!-- Accessible Skip Navigation -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Reusable Site Header & Accessible Navigation -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Grand Dial Home">
+        Grand <span>Dial</span>
+        <span class="brand-location-badge">• Vijay Nagar</span>
+      </a>
+      
+      <!-- Accessible Mobile Menu Button -->
+      <button id="menu-toggle" class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Toggle navigation menu">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </button>
+
+      <!-- Primary Navigation -->
+      <nav id="primary-nav" class="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Collections</a></li>
+          <li><a href="pricing.html" class="nav-link">Pricing</a></li>
+          <li><a href="location.html" class="nav-link">Location</a></li>
+          <li><a href="contact.html" class="nav-link active" aria-current="page">Contact</a></li>
+          <li class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">Enquire Now</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Page Intro / Hero -->
+    <section class="section section-hero-compact">
+      <div class="container">
+        <span class="badge-tag">Vijay Nagar, Indore • Fast Response</span>
+        <h1>Make a Watch Enquiry in Vijay Nagar Indore</h1>
+        <p class="text-muted text-max-center">
+          Looking for a stylish watch for daily wear, office meetings, or celebratory gifting? Complete the enquiry form below. Our Vijay Nagar team will get in touch with relevant design options, pricing guidance, and availability.
+        </p>
+      </div>
+    </section>
+
+    <!-- Main Contact & Enquiry Form Section -->
+    <section class="section" style="padding-top: var(--space-xs);">
+      <div class="container contact-grid">
+
+        <!-- Store Context & Benefits Aside Card -->
+        <aside class="contact-info-card" aria-label="Grand Dial Store Information">
+          <div class="card-media" style="margin-bottom: var(--space-md); border-radius: var(--radius-md);">
+            <img 
+              src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80" 
+              alt="Curated wrist watches available for customer enquiry at Grand Dial in Vijay Nagar"
+              class="card-img"
+              loading="lazy"
+              width="600"
+              height="375"
+            >
+            <span class="img-caption-tag">Vijay Nagar, Indore Retail Focus</span>
+          </div>
+
+          <span class="badge-tag">Local Assistance</span>
+          <h2>Why Enquire With Grand Dial?</h2>
+          <p>
+            Serving watch enthusiasts, students, and professionals within a 5-kilometre radius of Vijay Nagar, Indore.
+          </p>
+
+          <div class="info-block">
+            <h3>✨ Key Customer Benefits</h3>
+            <p>✓ <strong>Quality Verified:</strong> Every watch is inspected for movement accuracy and finish.</p>
+            <p>✓ <strong>Honest Guidance:</strong> Zero sales pressure; we match your wrist size and style.</p>
+            <p>✓ <strong>Budget Diversity:</strong> Options across student, mid-range, and premium brackets.</p>
+            <p>✓ <strong>Prompt Feedback:</strong> Real pictures and pricing shared on your preferred channel.</p>
+          </div>
+
+          <div class="info-block">
+            <h3>📍 Focus Locality</h3>
+            <p><strong>Primary Area:</strong> Vijay Nagar, Indore, Madhya Pradesh 452010</p>
+            <p class="text-muted">Serving Scheme 54, Scheme 78, AB Road, Mahalaxmi Nagar, and Sukhlia.</p>
+          </div>
+
+          <div class="info-block">
+            <h3>⏰ Support Hours</h3>
+            <p>Monday to Saturday: 10:00 AM – 9:00 PM<br>Sunday: 11:00 AM – 8:00 PM</p>
+          </div>
+        </aside>
+
+        <!-- Grand Dial Watch Enquiry Form -->
+        <div class="form-card">
+          <span class="badge-tag">Enquiry Form</span>
+          <h2>Submit Your Watch Requirement</h2>
+          <p class="form-subtitle">Share your preference and our Vijay Nagar team will share photos, options, and pricing guidance.</p>
+
+          <!-- On-Page Status Message Container (No alert() popups) -->
+          <div id="form-status" class="form-status is-hidden" role="status" aria-live="polite"></div>
+
+          <!-- Clearly Marked Formspree Submission Form -->
+          <form id="enquiry-form" action="https://formspree.io/f/YOUR_FORMSPREE_ID" method="POST" novalidate>
+            
+            <!-- 1. Customer Name (Required) -->
+            <div class="form-group">
+              <label for="customer-name">
+                Full Name <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <input 
+                type="text" 
+                id="customer-name" 
+                name="customer_name" 
+                placeholder="Enter your full name" 
+                autocomplete="name" 
+                required 
+                aria-describedby="customer-name-error"
+              >
+              <span class="error-msg" id="customer-name-error" aria-live="polite"></span>
+            </div>
+
+            <!-- 2. Mobile Number (Required, 10 Digits) -->
+            <div class="form-group">
+              <label for="mobile-number">
+                10-Digit Mobile Number <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <input 
+                type="tel" 
+                id="mobile-number" 
+                name="mobile_number" 
+                placeholder="e.g. 9876543210" 
+                maxlength="10" 
+                inputmode="numeric" 
+                autocomplete="tel" 
+                required 
+                aria-describedby="mobile-error"
+              >
+              <span class="error-msg" id="mobile-error" aria-live="polite"></span>
+            </div>
+
+            <!-- 3. Email Address (Optional, validated if entered) -->
+            <div class="form-group">
+              <label for="email-address">
+                Email Address <span class="text-muted">(Optional)</span>
+              </label>
+              <input 
+                type="email" 
+                id="email-address" 
+                name="email_address" 
+                placeholder="e.g. name@example.com" 
+                autocomplete="email" 
+                aria-describedby="email-error"
+              >
+              <span class="error-msg" id="email-error" aria-live="polite"></span>
+            </div>
+
+            <!-- 4. Watch Category Dropdown (Required, 8 categories) -->
+            <div class="form-group">
+              <label for="watch-category">
+                Watch Category <span class="required-star" aria-hidden="true">*</span>
+              </label>
+              <select 
+                id="watch-category" 
+                name="watch_category" 
+                required 
+                aria-describedby="category-error"
+              >
+                <option value="">-- Select Watch Category --</option>
+                <option value="Men's Watches">Men's Watches</option>
+                <option value="Women's Watches">Women's Watches</option>
+                <option value="Analog Watches">Analog Watches</option>
+                <option value="Digital Watches">Digital Watches</option>
+                <option value="Casual Watches">Casual Watches</option>
+                <option value="Formal Watches">Formal Watches</option>
+                <option value="Fashion Watches">Fashion Watches</option>
+                <option value="Gift Watches">Gift Watches</option>
+              </select>
+              <span class="error-msg" id="category-error" aria-live="polite"></span>
+            </div>
+
+            <!-- 5. Budget / Preference (Optional Dropdown) -->
+            <div class="form-group">
+              <label for="budget-range">
+                Budget / Preference <span class="text-muted">(Optional)</span>
+              </label>
+              <select 
+                id="budget-range" 
+                name="budget_range" 
+                aria-describedby="budget-error"
+              >
+                <option value="">-- Select Approximate Budget Tier --</option>
+                <option value="Under ₹1,500">Budget-Friendly (Under ₹1,500)</option>
+                <option value="₹1,500 - ₹3,500">Mid-Range (₹1,500 – ₹3,500)</option>
+                <option value="Above ₹3,500">Premium & Milestone (₹3,500 & Above)</option>
+                <option value="Flexible / Looking for Options">Flexible / Looking for Recommendations</option>
+              </select>
+              <span class="error-msg" id="budget-error" aria-live="polite"></span>
+            </div>
+
+            <!-- 6. Preferred Contact Method (Phone / Email) -->
+            <div class="form-group">
+              <label>Preferred Contact Method</label>
+              <div class="contact-radio-group">
+                <label class="contact-radio-label">
+                  <input type="radio" name="preferred_contact" value="Phone / WhatsApp" checked>
+                  Phone / WhatsApp
+                </label>
+                <label class="contact-radio-label">
+                  <input type="radio" name="preferred_contact" value="Email">
+                  Email
+                </label>
+              </div>
+            </div>
+
+            <!-- 7. Message / Requirement (Optional) -->
+            <div class="form-group">
+              <label for="message">
+                Specific Requirement / Message <span class="text-muted">(Optional)</span>
+              </label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="4" 
+                placeholder="Mention any specific preferences such as strap type (metal, leather, silicone), dial color, gifting date, or wrist size..."
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+              <span>Submit Watch Enquiry</span>
+            </button>
+
+            <!-- Privacy Note -->
+            <p class="form-privacy">🔒 <strong>Privacy Note:</strong> Your contact details are kept strictly confidential and only used to respond to your watch enquiry in Vijay Nagar, Indore.</p>
+          </form>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Reusable Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Grand Dial</h4>
+          <p>
+            Local watch retail business based in Vijay Nagar, Indore. 
+            Offering stylish, quality-focused and affordable watch collections for men and women 
+            living within a 5-kilometre radius.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <p><a href="index.html">Home</a></p>
+          <p><a href="about.html">About Us</a></p>
+          <p><a href="services.html">Watch Collections</a></p>
+          <p><a href="pricing.html">Pricing Guide</a></p>
+          <p><a href="location.html">Location</a></p>
+          <p><a href="contact.html">Contact & Enquiry</a></p>
+        </div>
+        <div class="footer-col">
+          <h4>Location & Academic Context</h4>
+          <p>Vijay Nagar, Indore, Madhya Pradesh 452010</p>
+          <p>Focus Area: Scheme 54, Scheme 78, AB Road, Mahalaxmi Nagar & Sukhlia</p>
+          <p>SEM-3 Digital Marketing Academic Demonstration Project</p>
+          <p>Enquiries: Handled via on-page enquiry form</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Grand Dial, Vijay Nagar, Indore. SEM-3 Digital Marketing Academic Project.</p>
+        <p class="footer-note">Built with semantic HTML5, mobile-first CSS, and vanilla JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
